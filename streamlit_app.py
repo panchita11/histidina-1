@@ -20,5 +20,5 @@ if opcion == "Información básica":
     st.wride("""En la naturaleza encontramos el enantiómero levorrotarorio de la histidina, es decir, la forma L-histidina.
 
 Tanto de origen animal como vegetal, por lo que su carencia es una condición extraña y normalmente asociada a alteraciones genéticas o malnutrición severa.""")
-      st.write("""En la naturaleza encontramos el enantiómero levorrotarorio de la histidina, es decir, la forma L-histidina.
+      st.write("""En la naturaleza encontramos el enantiómero levorrotarorio de la histidina, es decir, la forma L-histidina.""")
     st.image("https://arribasalud.com/wp-content/uploads/2018/02/histidina-665x285.jpg")
