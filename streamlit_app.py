@@ -25,7 +25,6 @@ if opcion == "Información básica":
         width=300
     )
       st.write("""En la naturaleza encontramos el enantiómero levorrotarorio de la histidina, es decir, la forma L-histidina.
-
 Tanto de origen animal como vegetal, por lo que su carencia es una condición extraña y normalmente asociada a alteraciones genéticas o malnutrición severa.""")
     st.write("""La histidina se obtiene por hidrólisis de numerosas sustancias proteicas.
 Desde el punto de vista físico se presenta en cristales incoloros, ópticamente activos, solubles en agua, insolubles en alcohol y en éter, que por descarboxilación se transforman en histamina. Puede obtenerse por síntesis de diferentes formas. En cuanto a su valor nutricional, la histidina no se considera un aminoácido esencial para hombres adultos y adolescentes, mientras que sí lo es para la primera infancia. También es esencial para la mayoría de los mamíferos.
