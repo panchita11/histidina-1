@@ -17,8 +17,6 @@ if opcion == "Información básica":
     varias funciones biológicas. Su fórmula química es **C₆H₉N₃O₂** y es conocida 
     por ser precursora de la histamina.
     """)
-    st.write("""
-  
     st.wride("""En la naturaleza encontramos el enantiómero levorrotarorio de la histidina, es decir, la forma L-histidina.
 
 Tanto de origen animal como vegetal, por lo que su carencia es una condición extraña y normalmente asociada a alteraciones genéticas o malnutrición severa.""")
