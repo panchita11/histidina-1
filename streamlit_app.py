@@ -20,3 +20,4 @@ if opcion == "Información básica":
 Muchos alimentos son ricos en histidina, como las proteínas animales (carne y productos lácteos), y las proteínas vegetales. Estos aportan gran parte de los requerimientos diarios de histidina que el cuerpo necesita para funcionar correctamente.
 
 El déficit o el exceso de histidina ocasionado por problemas hereditarios metabólicos o de transporte, o la falla dietética en la ingesta, se relacionan con algunos problemas importantes que afectan la salud en niños y en adultos. El consumo suficiente de histidina permite mantener una vida sana y saludable en la mayor parte de los casos.""")
+    st.image("""https://draxe.com/wp-content/uploads/2019/06/histidine-header-768x350.jpg""")
