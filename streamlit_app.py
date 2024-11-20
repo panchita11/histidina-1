@@ -1,6 +1,13 @@
 import streamlit as st
+import streamlit as st
+import matplotlib.pyplot as plt
 
-st.title("🎈 My new app")
-st.write(
-    "Let's start building! For help and inspiration, head over to [docs.streamlit.io](https://docs.streamlit.io/)."
+st.title("HISTIDINA")
+st.sidebar.title("Menú de navegación")
+st.sidebar.header("Secciones disponibles")
+
+# Opciones en la barra lateral
+opcion = st.sidebar.selectbox(
+    "Selecciona una sección:",
+    ["Información básica", "Funciones biológicas", "Propiedades químicas"]
 )
