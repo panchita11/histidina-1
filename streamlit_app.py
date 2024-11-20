@@ -1,5 +1,4 @@
 import streamlit as st
-import matplotlib.pyplot as plt
 
 st.title("HISTIDINA")
 st.sidebar.title("Menú de navegación")
