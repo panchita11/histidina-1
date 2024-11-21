@@ -1,4 +1,10 @@
 import streamlit as st
+[theme]
+primaryColor = "#1f77b4"  # Color principal
+backgroundColor = "#f0f0f5"  # Color del fondo
+secondaryBackgroundColor = "#e0e0ef"  # Color del fondo de widgets
+textColor = "#333333"  # Color del texto
+font = "sans serif"  # Fuente (sans serif, serif, monospace)
 
 st.title("HISTIDINA")
 st.sidebar.title("Menú de navegación")
@@ -87,11 +93,6 @@ st.write("A continuación se muestra una comparación sencilla de los valores de
 st.bar_chart(data={"Proteínas": proteins, "pKa": pKa_values})
 st.video("https://youtube.com/shorts/5xuA2aGRIVU?feature=shared")
 
-[theme]
-primaryColor = "azul"  # Color principal
-backgroundColor = "blanco"  # Color del fondo
-secondaryBackgroundColor = "verde"  # Color del fondo de widgets
-textColor = "rojo"  # Color del texto
-font = "times new roman"  # Fuente (sans serif, serif, monospace)
+
 
    
