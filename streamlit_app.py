@@ -86,17 +86,4 @@ st.write("A continuación se muestra una comparación sencilla de los valores de
 # Crear un gráfico de barras con Streamlit
 st.bar_chart(data={"Proteínas": proteins, "pKa": pKa_values})
 st.video("https://youtube.com/shorts/5xuA2aGRIVU?feature=shared")
-st.markdown("""
-    <style>
-    .custom-title {
-        font-size: 48px;        /* Tamaño de fuente */
-        color: #FF6F61;         /* Color del texto */
-        font-family: 'Arial', sans-serif; /* Tipo de fuente */
-        text-align: center;     /* Alinear al centro */
-        font-weight: bold;      /* Negrita */
-    }
-    </style>
-    """, unsafe_allow_html=True)
 
-
-   
