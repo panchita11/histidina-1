@@ -1,38 +1,4 @@
 import streamlit as st
-import plotly.graph_objects as go
-
-# Datos de pKa para la histidina y algunas otras proteínas
-# Los valores son ejemplos y pueden modificarse con datos reales
-proteins = ["Histidina", "Aspartato", "Glutamato", "Cisteína", "Lysina"]
-pKa_values = [6.0, 3.9, 4.2, 8.3, 10.5]
-
-# Crear la gráfica interactiva
-fig = go.Figure()
-
-# Agregar la histidina y otras proteínas a la gráfica
-fig.add_trace(go.Bar(
-    x=proteins,
-    y=pKa_values,
-    marker_color='blue',
-    name='pKa'
-))
-
-# Mejorar la visualización
-fig.update_layout(
-    title="Comparación de pKa de la Histidina con otras Proteínas",
-    xaxis_title="Proteínas",
-    yaxis_title="Valor de pKa",
-    template="plotly_dark",
-    height=400
-)
-
-# Título y descripción en Streamlit
-st.title("Análisis Interactivo del pKa de Aminoácidos")
-st.write("A continuación se muestra la comparación del pKa de la Histidina con otras proteínas comunes. Los valores son ejemplos representativos.")
-
-# Mostrar la gráfica interactiva en Streamlit
-st.plotly_chart(fig)
-
 
 st.title("HISTIDINA")
 st.sidebar.title("Menú de navegación")
