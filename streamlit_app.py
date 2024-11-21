@@ -74,3 +74,10 @@ elif opcion == "Propiedades químicas":
 
 6.	Función bioquímica: Participa en la catálisis enzimática y actúa como tampón biológico.
 """)
+    import plotly.graph_objects as go
+
+# Crear un gráfico de barras
+fig = go.Figure(data=[go.Bar(x=["Histidina", "Aspartato", "Glutamato"], y=[6.0, 3.9, 4.2])])
+
+# Mostrar el gráfico
+fig.show()
