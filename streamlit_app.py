@@ -86,14 +86,5 @@ st.write("A continuación se muestra una comparación sencilla de los valores de
 # Crear un gráfico de barras con Streamlit
 st.bar_chart(data={"Proteínas": proteins, "pKa": pKa_values})
 
-# Título de la aplicación
-st.title("Modelo 3D Interactivo de la Histidina")
 
-# Enlace al modelo 3D de Sketchfab (reemplaza este enlace con el de tu modelo)
-model_url = ""C:\Users\52623\Downloads\1ibv.pdb""
-
-# Usar markdown para cargar el modelo 3D con un iframe
-st.markdown(f'<iframe width="800" height="600" src="{model_url}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>', unsafe_allow_html=True)
-
-   
    
