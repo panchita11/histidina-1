@@ -89,8 +89,7 @@ st.bar_chart(data={"Proteínas": proteins, "pKa": pKa_values})
 # Título de la aplicación
 st.title("Modelo 3D Interactivo de la Histidina")
 
-model_path = '<div class="sketchfab-embed-wrapper"> <iframe title="L- Histidina" frameborder="0" allowfullscreen mozallowfullscreen="true" webkitallowfullscreen="true" allow="autoplay; fullscreen; xr-spatial-tracking" xr-spatial-tracking execution-while-out-of-viewport execution-while-not-rendered web-share src="https://sketchfab.com/models/dfcf78394c0a48b18775f43962fb231c/embed"> </iframe> <p style="font-size: 13px; font-weight: normal; margin: 5px; color: #4A4A4A;"> <a href="https://sketchfab.com/3d-models/l-histidina-dfcf78394c0a48b18775f43962fb231c?utm_medium=embed&utm_campaign=share-popup&utm_content=dfcf78394c0a48b18775f43962fb231c" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;"> L- Histidina </a> by <a href="https://sketchfab.com/camiloislas?utm_medium=embed&utm_campaign=share-popup&utm_content=dfcf78394c0a48b18775f43962fb231c" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;"> Eduteiment </a> on <a href="https://sketchfab.com?utm_medium=embed&utm_campaign=share-popup&utm_content=dfcf78394c0a48b18775f43962fb231c" target="_blank" rel="nofollow" style="font-weight: bold; color: #1CAAD9;">Sketchfab</a></p></div>.obj'  # Cambia este nombre por la ruta de tu archivo .obj
-
+model_path = 'https://skfb.ly/oyUSZ.obj'
 # Usar markdown para cargar el modelo 3D con HTML embebido
 html_string = f"""
 <html>
