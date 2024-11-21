@@ -1,4 +1,15 @@
 import streamlit as st
+import numpy as np
+import matplotlib.pyplot as plt
+import pandas as pd
+import seaborn as sns
+import plotly.graph_objects as go
+
+# Crear un gráfico de barras
+fig = go.Figure(data=[go.Bar(x=["Histidina", "Aspartato", "Glutamato"], y=[6.0, 3.9, 4.2])])
+
+# Mostrar el gráfico
+fig.show()
 
 st.title("HISTIDINA")
 st.sidebar.title("Menú de navegación")
