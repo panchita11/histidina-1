@@ -74,5 +74,15 @@ elif opcion == "Propiedades químicas":
 
 6.	Función bioquímica: Participa en la catálisis enzimática y actúa como tampón biológico.
 """)
+    # Datos de pKa para la histidina y algunas otras proteínas
+proteins = ["Histidina", "Aspartato", "Glutamato", "Cisteína", "Lysina"]
+pKa_values = [6.0, 3.9, 4.2, 8.3, 10.5]
+
+# Crear la interfaz de Streamlit
+st.title("Comparación de pKa de la Histidina con Otras Proteínas")
+st.write("A continuación se muestra una comparación sencilla de los valores de pKa de varios aminoácidos comunes.")
+
+# Crear un gráfico de barras con Streamlit
+st.bar_chart(data={"Proteínas": proteins, "pKa": pKa_values})
    
    
