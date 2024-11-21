@@ -98,8 +98,5 @@ st.markdown("""
     </style>
     """, unsafe_allow_html=True)
 
-# Aplicar el título personalizado
-st.markdown('<p class="custom-title">Bienvenido a Mi Dashboard</p>', unsafe_allow_html=True)
-
 
    
