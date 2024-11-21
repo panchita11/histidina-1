@@ -23,6 +23,5 @@ El déficit o el exceso de histidina ocasionado por problemas hereditarios metab
     st.image("""https://draxe.com/wp-content/uploads/2019/06/histidine-header-768x350.jpg""")
 elif opcion == "Funciones biológicas":
    st.header("Funciones biologicas de la Histidina")
-   st.wride("""
-    La histidina participa en""")
+    st.write("""La histidina participa en""")
  
