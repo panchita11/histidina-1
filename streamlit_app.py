@@ -85,5 +85,51 @@ st.write("A continuación se muestra una comparación sencilla de los valores de
 
 # Crear un gráfico de barras con Streamlit
 st.bar_chart(data={"Proteínas": proteins, "pKa": pKa_values})
+
+# Título de la aplicación
+st.title("Modelo 3D Interactivo de la Histidina")
+
+model_path = 'https://molview.org/?cid=6274.obj'  # Cambia este nombre por la ruta de tu archivo .obj
+
+# Usar markdown para cargar el modelo 3D con HTML embebido
+html_string = f"""
+<html>
+<head>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.132.2/build/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.132.2/examples/js/controls/OrbitControls.js"></script>
+</head>
+<body>
+    <h2>Modelo 3D de Histidina</h2>
+    <div id="3d-container" style="width: 800px; height: 600px;"></div>
+    <script>
+        var scene = new THREE.Scene();
+        var camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
+        var renderer = new THREE.WebGLRenderer();
+        renderer.setSize(800, 600);
+        document.getElementById('3d-container').appendChild(renderer.domElement);
+
+        var loader = new THREE.OBJLoader();
+        loader.load("{model_path}", function(object) {{
+            scene.add(object);
+        }});
+
+        var controls = new THREE.OrbitControls(camera, renderer.domElement);
+        camera.position.z = 5;
+
+        function animate() {{
+            requestAnimationFrame(animate);
+            controls.update();
+            renderer.render(scene, camera);
+        }}
+
+        animate();
+    </script>
+</body>
+</html>
+"""
+
+# Insertar el HTML en Streamlit
+st.markdown(html_string, unsafe_allow_html=True)
+
    
    
