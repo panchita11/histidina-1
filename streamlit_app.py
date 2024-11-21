@@ -86,5 +86,7 @@ st.write("A continuación se muestra una comparación sencilla de los valores de
 
 # Crear un gráfico de barras con Streamlit
 st.bar_chart(data={"Proteínas": proteins, "pKa": pKa_values})
+
 st.video("https://youtube.com/shorts/5xuA2aGRIVU?feature=shared")
+
 st.image("https://th.bing.com/th/id/OIP.INVqNl-62twQfbS82hMmQgHaEn?rs=1&pid=ImgDetMain")
