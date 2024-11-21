@@ -86,8 +86,6 @@ st.write("A continuación se muestra una comparación sencilla de los valores de
 # Crear un gráfico de barras con Streamlit
 st.bar_chart(data={"Proteínas": proteins, "pKa": pKa_values})
 
-import streamlit as st
-
 # Título de la aplicación
 st.title("Modelo 3D Interactivo de la Histidina")
 
