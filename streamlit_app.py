@@ -24,6 +24,7 @@ El déficit o el exceso de histidina ocasionado por problemas hereditarios metab
 elif opcion == "Funciones biológicas":
    st.header("Funciones biologicas de la Histidina")
    st.write("""La histidina cumple varias funciones biológicas esenciales en el cuerpo humano debido a su estructura química única, que incluye un anillo imidazol capaz de participar en diversas reacciones químicas. Aquí están sus principales funciones:""")
+   st.image("https://www.mismumi.com/wp-content/uploads/histidina-aminoacido-funcion-336x205.jpg")
    st.write("""1. Regulación del pH 
 El anillo imidazol de la histidina tiene un pKa cercano al pH fisiológico (~6.0), lo que le permite actuar como un regulador en los cambios de pH.  
 
