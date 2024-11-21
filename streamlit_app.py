@@ -74,6 +74,7 @@ elif opcion == "Propiedades químicas":
 
 6.	Función bioquímica: Participa en la catálisis enzimática y actúa como tampón biológico.
 """)
+elif opcion == "Propiedades químicas":
     # Datos de pKa para la histidina y algunas otras proteínas
 proteins = ["Histidina", "Aspartato", "Glutamato", "Cisteína", "Lysina"]
 pKa_values = [6.0, 3.9, 4.2, 8.3, 10.5]
