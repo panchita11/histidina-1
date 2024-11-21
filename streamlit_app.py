@@ -1,10 +1,4 @@
 import streamlit as st
-[theme]
-primaryColor = "#1f77b4"  # Color principal
-backgroundColor = "#f0f0f5"  # Color del fondo
-secondaryBackgroundColor = "#e0e0ef"  # Color del fondo de widgets
-textColor = "#333333"  # Color del texto
-font = "sans serif"  # Fuente (sans serif, serif, monospace)
 
 st.title("HISTIDINA")
 st.sidebar.title("Menú de navegación")
